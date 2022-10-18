@@ -1,0 +1,53 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/rabderus/Desktop/Repka/New Repka'
+make -C libft/
+gcc  -Wall -Wextra -Werror -g  -c srcs/main.c -o srcs/main.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/free.c -o srcs/free.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/handler.c -o srcs/handler.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/minishell.c -o srcs/minishell.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/parser.c -o srcs/parser/parser.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/parser2.c -o srcs/parser/parser2.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/pars_utils.c -o srcs/parser/pars_utils.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/envp.c -o srcs/parser/envp.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/envp_list.c -o srcs/parser/envp_list.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/create_command.c -o srcs/parser/create_command.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/build_cmd.c -o srcs/parser/build_cmd.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/make_redirect.c -o srcs/parser/make_redirect.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/make_cmd_path.c -o srcs/parser/make_cmd_path.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/make_pipe_arg.c -o srcs/parser/make_pipe_arg.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/redir_utils.c -o srcs/parser/redir_utils.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/check_all_quotes.c -o srcs/check_all_quotes.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/check_command.c -o srcs/check_command.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/parser/syntax_utils.c -o srcs/parser/syntax_utils.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c srcs/check_utils.c -o srcs/check_utils.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c executer/executor.c -o executer/executor.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/ft_libft_lst_mod.c -o executer/ft_libft_lst_mod.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_echo.c -o executer/builtins/builtins_echo.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_pwd.c -o executer/builtins/builtins_pwd.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_env.c -o executer/builtins/builtins_env.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_export.c -o executer/builtins/builtins_export.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_export_alph.c -o executer/builtins/builtins_export_alph.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_export_new.c -o executer/builtins/builtins_export_new.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_unset.c -o executer/builtins/builtins_unset.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_cd.c -o executer/builtins/builtins_cd.o -I includes/
+ 
+gcc  -Wall -Wextra -Werror -g  -c executer/builtins/builtins_exit.c -o executer/builtins/builtins_exit.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/env_operations.c -o executer/env_operations.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/execve_action.c -o executer/execve_action.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/redirect.c -o executer/redirect.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/pipe_action.c -o executer/pipe_action.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/utils.c -o executer/utils.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/delete_utils.c -o executer/delete_utils.o -I includes/
+gcc  -Wall -Wextra -Werror -g  -c executer/error_and_free.c -o executer/error_and_free.o -I includes/
+ 
+gcc  -g -Wall -Wextra -Werror -g  -lreadline -L/Users/lbrianna/.brew/Cellar/readline/8.1.2/lib -I/Users/lbrianna/.brew/Cellar/readline/8.1.2/include/readline  srcs/main.o srcs/free.o srcs/handler.o srcs/minishell.o srcs/parser/parser.o srcs/parser/parser2.o srcs/parser/pars_utils.o srcs/parser/envp.o srcs/parser/envp_list.o srcs/parser/create_command.o srcs/parser/build_cmd.o srcs/parser/make_redirect.o srcs/parser/make_cmd_path.o srcs/parser/make_pipe_arg.o srcs/parser/redir_utils.o srcs/check_all_quotes.o srcs/check_command.o srcs/parser/syntax_utils.o srcs/check_utils.o executer/executor.o executer/ft_libft_lst_mod.o executer/builtins/builtins_echo.o executer/builtins/builtins_pwd.o executer/builtins/builtins_env.o executer/builtins/builtins_export.o executer/builtins/builtins_export_alph.o executer/builtins/builtins_export_new.o executer/builtins/builtins_unset.o executer/builtins/builtins_cd.o executer/builtins/builtins_exit.o executer/env_operations.o executer/execve_action.o executer/redirect.o executer/pipe_action.o executer/utils.o executer/delete_utils.o executer/error_and_free.o libft/libft.a -o minishell
+make: Leaving directory `/Users/rabderus/Desktop/Repka/New Repka'
+ 

@@ -1,0 +1,529 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Thu Sep 22 17:35:15 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 40)
+INCLUDES = includes/
+ 
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/rabderus/Desktop/Repka/New Repka
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 46)
+RM = rm -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 43)
+CFLAGS = -Wall -Wextra -Werror -g 
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/munki:/Library/Apple/usr/bin
+# environment
+C_INCLUDE_PATH = /usr/local/include/
+# environment
+LIBRARY_PATH = /usr/local/Cellar/check/0.15.2/lib:/usr/local/lib
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 48)
+LIB = libft/libft.a
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 50)
+RDLN = -lreadline -L/Users/lbrianna/.brew/Cellar/readline/8.1.2/lib -I/Users/lbrianna/.brew/Cellar/readline/8.1.2/include/readline 
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.B7k0jROaUG/Listeners
+# environment
+CPLUS_INCLUDE_PATH = /usr/local/include/
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 38)
+OBJS = $(SRCS:%.c=%.o) $(FILES:%.c=%.o)
+# environment
+PWD = /Users/rabderus/Desktop/Repka/New Repka
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/rabderus
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/rabderus/Library/Application Support/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LOGNAME = rabderus
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `Makefile', line 16)
+SRCS = srcs/main.c srcs/free.c srcs/handler.c srcs/minishell.c srcs/minishell_two.c srcs/parser/parser.c srcs/parser/parser2.c srcs/parser/pars_utils.c srcs/parser/envp.c srcs/parser/envp_list.c srcs/parser/create_command.c srcs/parser/build_cmd.c srcs/parser/make_redirect.c srcs/parser/make_cmd_path.c srcs/parser/make_pipe_arg.c srcs/parser/redir_utils.c srcs/check_all_quotes.c srcs/check_command.c srcs/parser/syntax_utils.c srcs/check_utils.c 
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 42)
+CC = gcc 
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = rabderus
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 13)
+NAME = minishell
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n00021sm000hfd/T/
+# automatic
+ 
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/rabderus/Library/Application Support/Code/1.69.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.25218.25224
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x41CD:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 41)
+HEADER = minishell.h
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 17867
+# makefile (from `Makefile', line 24)
+FILES = executer/executor.c executer/ft_libft_lst_mod.c executer/builtins/builtins_echo.c executer/builtins/builtins_pwd.c executer/builtins/builtins_env.c executer/builtins/builtins_export.c executer/builtins/builtins_export_alph.c executer/builtins/builtins_export_new.c executer/builtins/builtins_unset.c executer/builtins/builtins_cd.c executer/builtins/builtins_exit.c executer/env_operations.c executer/execve_action.c executer/redirect.c executer/pipe_action.c executer/utils.c executer/error_and_free.c 
+# variable set hash-table stats:
+ 
+# Load=72/1024=7%, Rehash=0, Collisions=5/106=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777230, inode 1056354): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+%.o: %.c includes/minishell.h Makefile
+#  commands to execute (from `Makefile', line 55):
+	$(CC) $(CFLAGS) -c $< -o $@ -I $(INCLUDES)
+	
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+srcs/check_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_export_new.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/check_command.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/create_command.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: libft minishell
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+# Not a target:
+srcs/parser/redir_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/make_redirect.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean fclean re libft
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/envp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libft:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := libft
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `Makefile', line 60):
+	@make -C libft/
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/parser.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_env.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/free.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-09-22 17:34:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+executer/builtins/builtins_exit.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_pwd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_unset.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+minishell: srcs/main.o srcs/free.o srcs/handler.o srcs/minishell.o srcs/minishell_two.o srcs/parser/parser.o srcs/parser/parser2.o srcs/parser/pars_utils.o srcs/parser/envp.o srcs/parser/envp_list.o srcs/parser/create_command.o srcs/parser/build_cmd.o srcs/parser/make_redirect.o srcs/parser/make_cmd_path.o srcs/parser/make_pipe_arg.o srcs/parser/redir_utils.o srcs/check_all_quotes.o srcs/check_command.o srcs/parser/syntax_utils.o srcs/check_utils.o executer/executor.o executer/ft_libft_lst_mod.o executer/builtins/builtins_echo.o executer/builtins/builtins_pwd.o executer/builtins/builtins_env.o executer/builtins/builtins_export.o executer/builtins/builtins_export_alph.o executer/builtins/builtins_export_new.o executer/builtins/builtins_unset.o executer/builtins/builtins_cd.o executer/builtins/builtins_exit.o executer/env_operations.o executer/execve_action.o executer/redirect.o executer/pipe_action.o executer/utils.o executer/error_and_free.o libft/libft.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 58):
+	$(CC) -g $(CFLAGS) $(RDLN) $(OBJS) $(LIB) -o $(NAME)
+	
+
+# Not a target:
+srcs/check_all_quotes.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+libft/libft.a:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/syntax_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/executor.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/execve_action.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/redirect.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+fclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 66):
+	@make -C libft/ fclean
+	$(RM) $(NAME) 
+	
+
+# Not a target:
+srcs/minishell_two.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/error_and_free.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/minishell.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/make_cmd_path.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/build_cmd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+srcs/handler.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 62):
+	@make -C libft/ clean
+	$(RM) $(OBJS)
+	
+
+# Not a target:
+srcs/parser/parser2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_cd.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/env_operations.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/make_pipe_arg.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/envp_list.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/ft_libft_lst_mod.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/parser/pars_utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_export_alph.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_echo.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+srcs/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/builtins/builtins_export.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/pipe_action.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+executer/utils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=48/1024=5%, Rehash=0, Collisions=2/110=2%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Thu Sep 22 17:35:15 2022
+
+ 
